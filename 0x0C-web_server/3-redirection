@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#install ngix and have a file that returns the string "Hello World inside
+
+sudo apt-get -y update
+sudo apt-get install nginx -y
+sudo service start nginx
+new_string="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
+sudo sed -i "19i $new_string" /etc/nginx/sites-available/default
+sudo service nginx restart
+sudo service nginx reload
