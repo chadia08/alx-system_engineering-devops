@@ -138,4 +138,4 @@ Please, remember that everything must be written in English to further your tech
 ---
 
 ## Author
-* **John Danlami** - [johnsmccain](https://github.com/johnsmccain)
+* **Chadia El kharmoudi** - [chadia08 ](https://github.com/chadia08)
